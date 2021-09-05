@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-hope",
+  "version": "1.0.0",
+  "description": "A project of vuepress-theme-hope",
+  "license": "MIT",
+  "scripts": {
+    "build": "vuepress build vuepress-hope",
+    "docs:clean-dev": "vuepress dev vuepress-hope --no-cache",
+    "dev": "vuepress dev vuepress-hope",
+    "docs:eject-theme": "vuepress eject-hope vuepress-hope"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.20.2"
+  }
+}
