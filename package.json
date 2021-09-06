@@ -7,7 +7,8 @@
     "build": "vuepress build vuepress-hope",
     "docs:clean-dev": "vuepress dev vuepress-hope --no-cache",
     "dev": "vuepress dev vuepress-hope",
-    "docs:eject-theme": "vuepress eject-hope vuepress-hope"
+    "docs:eject-theme": "vuepress eject-hope vuepress-hope",
+    "deploy-gh": "GH=1 yarn build && bash scripts/deploy-gh.sh"
   },
   "devDependencies": {
     "vuepress": "^1.8.2",
