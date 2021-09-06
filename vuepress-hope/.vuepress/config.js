@@ -5,6 +5,7 @@ module.exports = config({
   title: "网络招生报名系统",
   description: "学前教育、义务教育网络招生系统 阳光分班系统",
   dest: "./dist",
+  base: "/docs/",
   head: [
     [
       "script",
